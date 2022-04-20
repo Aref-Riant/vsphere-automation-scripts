@@ -14,3 +14,20 @@ You need to install prerequisites before running scripts, using virtual env is h
 
 ```python3 -m pip  install --upgrade git+https://github.com/vmware/vsphere-automation-sdk-python.git```
 
+## Scripts:
+
+### 1. folderOps.py  
+command:
+python3 folderOps.py -f \<folderID\> -o \<operation\>
+  
+_perform power operations on VMs in folders_
+  
+  
+### 2. tagOps.py  
+command:
+python3 tagOps.py -f \<tagName\> -o \<operation\>
+  
+_perform power operations on VMs with tags_
+  
+  
+  * Power operaetions are: {start, suspend, reset, stop}.
