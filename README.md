@@ -37,4 +37,4 @@ python3 tagOps.py -f \<tagName\> -o \<operation\>
 _perform power operations on VMs with tags_
   
   
-  * Power operaetions are: {start, suspend, reset, stop}.
+  * Power operations are: {start, suspend, reset, stop}.
