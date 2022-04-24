@@ -14,6 +14,13 @@ You need to install prerequisites before running scripts, using virtual env is h
 
 ```python3 -m pip  install --upgrade git+https://github.com/vmware/vsphere-automation-sdk-python.git```
 
+## Docker:
+use: ```docker build . -t vsphereops to build docker image```
+
+use: ```docker run --rm -it vsphereops /bin/bash``` to use shell, or
+
+use: ```docker run --rm -it vsphereops python /app/tagops.py -t critical -o start```
+
 ## Scripts:
 
 ### 1. folderOps.py  
