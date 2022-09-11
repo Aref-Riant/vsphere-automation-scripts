@@ -9,6 +9,6 @@ WORKDIR /app
 COPY --from=base /usr/local/lib/python3.8/site-packages/ /usr/local/lib/python3.8/site-packages
 RUN  python -m pip install requests
 RUN  python -m pip install --upgrade pip setuptools==60.10.0
-COPY FolderOps/config.ini /app/
-COPY FolderOps/folderOps.py /app/
-COPY TagOps/tagops.py /app/
+COPY config.ini /app/
+COPY folderOps.py /app/
+COPY tagops.py /app/
